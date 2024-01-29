@@ -1,2 +1,5 @@
+from controller import county_database
+
 if __name__ == '__main__':
-    print("hello world")
+    db = county_database()
+    db.run()
